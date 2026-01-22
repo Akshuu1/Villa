@@ -7,7 +7,7 @@ export default function About() {
     return (
         <>
             <Helmet>
-                <title>About Us | Clean Luxury Villas</title>
+                <title>About Us</title>
                 <meta name="description" content="Learn about our mission to provide the most exclusive and impeccably designed villa experiences." />
             </Helmet>
 

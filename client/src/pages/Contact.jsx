@@ -12,14 +12,13 @@ export default function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Placeholder logic
         alert("Thank you for your inquiry. Our concierge will contact you shortly.");
     };
 
     return (
         <>
             <Helmet>
-                <title>Contact Us | Clean Luxury Villas</title>
+                <title>Contact Us | Villas</title>
                 <meta name="description" content="Get in touch with our concierge team to plan your perfect luxury getaway." />
             </Helmet>
 

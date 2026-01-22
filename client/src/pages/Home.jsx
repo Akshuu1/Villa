@@ -34,7 +34,7 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <title>Clean Luxury | The Art of Living</title>
+                <title>The Art of Living</title>
                 <meta name="description" content="Curated private retreats for the modern aesthete." />
             </Helmet>
 
@@ -118,7 +118,7 @@ export default function Home() {
                 />
                 <div className="absolute bottom-0 left-0 w-full p-12 bg-gradient-to-t from-black/50 to-transparent text-white">
                     <span className="block text-[10px] uppercase tracking-[0.25em] mb-4">Featured Destination</span>
-                    <h2 className="text-6xl font-serif">Amalfi Coast</h2>
+                    <h2 className="text-6xl font-serif text-white">Amalfi Coast</h2>
                 </div>
             </section>
         </>

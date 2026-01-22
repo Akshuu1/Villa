@@ -64,7 +64,7 @@ export default function Header() {
                                 "text-3xl font-serif font-medium tracking-tight transition-colors duration-300",
                                 scrolled || !isHome ? "text-heading" : "text-white"
                             )}>
-                                CLEAN <span className="italic font-light text-2xl">Luxury</span>
+                                <span className="italic font-light text-2xl">Luxury</span>
                             </h1>
                         </Link>
                     </div>

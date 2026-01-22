@@ -16,7 +16,7 @@ export default function Destinations() {
     return (
         <>
             <Helmet>
-                <title>Destinations | Clean Luxury Villas</title>
+                <title>Luxury Villas</title>
                 <meta name="description" content="Explore our luxury villa locations across the globe." />
             </Helmet>
 
@@ -32,7 +32,7 @@ export default function Destinations() {
                         {DESTINATIONS.map((dest) => (
                             <Link
                                 key={dest.name}
-                                to="/villas" // Ideally filter by destination
+                                to="/villas"
                                 className="group relative aspect-[4/3] overflow-hidden block"
                             >
                                 <img

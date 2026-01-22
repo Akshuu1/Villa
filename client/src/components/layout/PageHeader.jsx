@@ -6,9 +6,10 @@ export default function PageHeader({ title, subtitle, image }) {
         <div className="relative h-[60vh] md:h-[50vh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
                 <img
-                    src={image || "/images/hero-bg.png"}
+                    src={image}
                     alt={title}
                     className="w-full h-full object-cover"
+                    color='white'
                 />
                 <div className="absolute inset-0 bg-black/40" />
             </div>
